@@ -6,8 +6,8 @@ config()
 export const PORT = process.env.PORT || 3000
 
 // Configuraciones para base de datos
-export const BD_HOST = process.env.BD_HOST || 'localhost'
-export const BD_NAME = process.env.BD_NAME || 'expresdbd'
-export const BD_USER = process.env.BD_USER || 'root'
-export const BD_PASSWORD = process.env.BD_PASSWORD || ''
-export const BD_PORT = process.env.BD_PASSWORD || 3306 
+export const DB_HOST = process.env.DB_HOST || 'localhost'
+export const DB_USER = process.env.DB_USER || 'root'
+export const DB_PASSWORD = process.env.DB_PASSWORD || ''
+export const DB_NAME = process.env.DB_NAME || 'expresdbd'
+export const DB_PORT = process.env.DB_PASSWORD || 3306 
