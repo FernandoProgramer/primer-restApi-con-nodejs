@@ -12,4 +12,8 @@ router.patch('/employee/updated/:id', updatedEmployee) // Method: PATCH
 
 router.delete('/employee/delete/:id', removeEmployee) // Method: DELETE
 
+router.get('/ping', (req, res) => {
+    res.send('Pong')
+})
+
 export default router
